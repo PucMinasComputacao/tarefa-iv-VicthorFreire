@@ -105,8 +105,73 @@
             color: #0f172a;
         }
 
-        @media (max-width: 768px) {
-            .container {
-                flex-direction: column;
-            }
-        }
+@media (max-width: 768px) {
+
+    header {
+        font-size: 24px;
+        padding: 20px;
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .conteudo, .sidebar {
+        width: 100%;
+    }
+
+    .banner {
+        height: 180px;
+    }
+
+    .card img {
+        height: 140px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    header {
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .container {
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .conteudo, .sidebar {
+        padding: 15px;
+    }
+
+    .banner {
+        height: 150px;
+    }
+
+    .card {
+        margin-bottom: 10px;
+    }
+
+    .card img {
+        height: 120px;
+    }
+
+    .card-content h3 {
+        font-size: 16px;
+    }
+
+    .card-content p {
+        font-size: 14px;
+    }
+
+    li {
+        font-size: 14px;
+        padding: 6px;
+    }
+}
